@@ -1,0 +1,25 @@
+.div__container {
+  width: 100%;
+  background-color: aqua;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+ul {
+  display: flex;
+  list-style: none;
+  gap: 15rem;
+}
+.icon__cart {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.item {
+  margin: 10px;
+}
+.link {
+  text-decoration: none;
+  color: black;
+}
