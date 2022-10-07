@@ -7,9 +7,14 @@ const Store = () => {
   return (
     <>
       <Navigation />
-      <h3>Hola esto es store</h3>
+
+      <ItemListContainer greeting="Catalogo" J />
       {Cards("Hola", "Hola", "Hola", "Hola")}
-      <ItemListContainer greeting="Catalogo" />
+      {Cards("Hola2", "Hola2", "Hola2", "Hola2")}
+      {Cards("Hola3", "Hola3", "Hola3", "Hola3")}
+      {Cards("Hola4", "Hola4", "Hola4", "Hola4")}
+      {Cards("Hola5", "Hola5", "Hola5", "Hola5")}
+      {Cards("Hola6", "Hola6", "Hola6", "Hola6")}
     </>
   );
 };
